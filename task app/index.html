@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task App</title>
+    <!-- start main font awesome 6.2 library css file -->
+    <link rel="stylesheet" href="styles/vendors/all.min.css" />
+    <!-- start main css file -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- start coding -->
+    <h1 class="app__title">Task Application</h1>
+    <section class="create__Task">
+      <div class="container">
+        <form action="#" id="taskForm">
+          <input id="taskTitle" type="text"  placeholder="Create Task">
+          <textarea id="TaskDescription" placeholder="Description"></textarea>
+          <input id="taskCategory" type="text" placeholder="Category">
+          <button id="addTask"><i class="fa-solid fa-plus"></i></button>
+        </form>
+      </div>
+    </section>
+    <section class="tasks__render">
+      <h1 class="app__title"><span id="tasksCount"></span> Tasks</h1>
+      <div class="container">
+        <div class="tasks__holder">
+          
+        </div>
+        <button id="clearAll" class="">Clear Tasks</button>
+      </div>
+    </section>
+    <!-- end coding -->
+    <!-- start main font awesome 6.2 library js file -->
+    <script src="scripts/vendors/all.min.js"></script>
+    <!-- start sweet alert library js file -->
+    <script src="scripts/vendors/sweetalert.js"></script>
+    <!-- start main js file -->
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
